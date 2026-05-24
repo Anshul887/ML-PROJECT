@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Resume Screener</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>AI Resume Screening System</h1>
+
+    <form action="/analyze" method="POST" enctype="multipart/form-data">
+
+        <textarea
+            name="job_description"
+            placeholder="Paste Job Description"
+            required
+        ></textarea>
+
+        <input
+            type="file"
+            name="resume"
+            required
+        >
+
+        <button type="submit">
+            Analyze Resume
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
