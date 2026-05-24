@@ -1,0 +1,27 @@
+body{
+    font-family:Arial;
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.container{
+    margin-top:100px;
+}
+
+textarea{
+    width:60%;
+    height:200px;
+    padding:15px;
+}
+
+input{
+    margin:20px;
+}
+
+button{
+    padding:12px 25px;
+    background:#38bdf8;
+    border:none;
+    color:white;
+}
